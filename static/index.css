@@ -1,0 +1,176 @@
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+li{
+	list-style-type: none;
+}
+.t30{
+	margin-top: 30px;
+}
+
+/************************base.css结束*****************/
+.header{
+	margin: 20px 0;
+}
+.header-left,header-right{
+	width: 50%;
+	float: left;
+}
+.banner{
+	overflow: hidden;
+}
+.banner-box{
+	width: 100%;
+	position: relative;
+}
+.banner-box ol,#bg,.slider-l-l,.slider-r-r,.slider-l img,.slider-r img,.btn-l,.btn-r{
+	position: absolute;
+}
+.slider-l-l h3,.slider-r-r h3{
+	right: 0;
+}
+.btn-l{
+	left: 5px;
+	top: 38%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 50px;
+
+}
+.btn-r{
+	right: 1px;
+	top: 38%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 50px;
+}
+.banner-box ol{
+	bottom: 0;
+	left: 48%;
+}
+.banner-box ol li{
+	display: inline-block;
+	border: 1px solid #fff;
+	background: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+#bg{
+	top: 0;
+}
+.slider-l img{
+	left: 50px;
+	top: 15%;
+	z-index: 666;
+	opacity: 0.05;
+}
+.slider-r img{
+	left: 50px;
+	top: 15%;
+	opacity: 0.01;
+}
+.slider-l-l,.slider-r-r{
+	font-size: 10px;
+	right: 10%;
+	opacity: 0.1;
+	top: 88px;
+	color: #fff;
+}
+
+.slider-l-l h3,.slider-r-r h3,.slider-r-r p{
+	opacity: 0
+
+}
+.nav{
+	width: 100%;
+}
+.nav-left,.nav-center,.nav-right{
+	width: 33.333%;
+	float: left;
+}
+.nav-left{
+	margin-top: 66px;
+}
+.nav-center{
+	
+
+}
+.nav-center ul li{
+	width: 50%;
+	float: left;
+	border: 1px solid blue;
+	border-radius: 20px;
+	padding: 5px 0;
+	margin:  5px 0;
+}
+.nav-center ul li:hover{
+	background: blue;
+}
+.nav-right{
+	margin-top: 66px;
+}
+.parnter{
+	width: 100%;
+}
+.parnter .parnter-left {
+	width: 30%;
+	float: left;
+}
+.mobil{
+	width: 70%;
+	float: left;
+}
+.link{
+	width: 100%;
+}
+.link p{
+	width: 11%;
+	float: left;
+}
+.link ul li{
+	width: 13%;
+	float: left;
+}
+.copyright{
+	width: 100%;
+	margin: 30px 10px;
+	padding: 10px 10px;
+	border: 1px solid black;
+
+}
+
+/***********************************主图结束*****************************************************/
+@media screen and (max-width:1080px) {
+	.banner{
+		display: none;
+	}
+}
+@media screen and (max-width:768px) {
+	.nav-left,.nav-center,.nav-right{
+		clear: both;
+		width: 100%;
+	}
+	.link ul li{
+		width: 33.333%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
