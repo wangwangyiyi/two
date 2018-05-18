@@ -1,0 +1,181 @@
+.container{
+	width: 90%;
+	margin: 0 auto;
+	color:#1f96f2;
+}
+li{
+	list-style-type: none;
+}
+.t30{
+	margin-top: 30px;
+}
+
+/************************base.css结束*****************/
+.header{
+	margin: 20px 0;
+}
+.header-left,header-right{
+	width: 50%;
+	float: left;
+}
+.banner{
+	overflow: hidden;
+}
+.banner-box{
+	width: 100%;
+	position: relative;
+}
+.banner-box ol,#bg,.slider-l-l,.slider-r-r,.slider-l img,.slider-r img,.btn-l,.btn-r{
+	position: absolute;
+}
+.slider-l-l h3,.slider-r-r h3{
+	right: 0;
+}
+.btn-l,.btn-r{
+	top: 38%;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 50px;
+}
+.btn-r{
+	right: 1px;
+}
+.btn-l{
+	left: 5px;
+}
+#li-1,#li-2{
+	color:black;
+	font-weight: bold;
+}
+
+.btn-l img,.btn-r img{
+	margin-top:8px;
+	height: 20px;
+	line-height: 40px;
+}
+.banner-box ol{
+	bottom: 0;
+	left: 48%;
+}
+.banner-box ol li{
+	display: inline-block;
+	border: 1px solid #fff;
+	background: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+#bg{
+	top: 0;
+}
+.slider-r img,.slider-l img{
+	left: 50px;
+	top: 15%;
+	z-index: 666;
+	opacity: 0.05;
+}
+.slider-l-l,.slider-r-r{
+	font-size: 10px;
+	right: 10%;
+	opacity: 0.1;
+	top: 88px;
+	color: #fff;
+}
+
+.slider-l-l h3,.slider-r-r h3,.slider-r-r p{
+	opacity: 0
+
+}
+.nav{
+	width: 100%;
+	height: 350px;
+}
+.nav-left,.nav-center,.nav-right{
+	width: 33.333%;
+	position: relative;
+	float: left;
+	height: 280px;
+}
+.nav-left-lst,.nav-center-lst,.nav-right-lst{
+	width: 100%;
+	position: absolute;
+	display: none;
+	top: 0;
+}
+.nav-center-lst ul li,.nav-left-lst ul li,.nav-right-lst ul li{
+	width: 50%;
+	float: left;
+	border: 1px solid #1f96f2;
+	border-radius: 20px;
+	padding: 5px 0;
+	margin:  5px 0;
+}
+.nav ul li:hover{
+	background:#1f96f2;
+}
+.nav li:hover a{
+	color:#fff;
+}
+.link,.parnter{
+	color: black;
+	width: 100%;
+}
+.parnter .parnter-left {
+	width: 30%;
+	float: left;
+}
+.mobil{
+	width: 70%;
+	float: left;
+}
+.link p{
+	width: 11%;
+	float: left;
+}
+.link ul li{
+	width: 13%;
+	float: left;
+}
+.copyright{
+	color: black;
+	width: 100%;
+	margin: 30px 10px;
+	padding: 10px 10px;
+	border: 1px solid black;
+
+}
+
+/***********************************主图结束*****************************************************/
+@media screen and (max-width:1080px) {
+	.banner{
+		display: none;
+	}
+}
+@media screen and (max-width:768px) {
+	.nav-left,.nav-center,.nav-right{
+		clear: both;
+		width: 100%;
+	}
+	.parnter-left,.mobil{
+		width: 100%!important;
+		float: none;
+	}
+	.link ul li{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
