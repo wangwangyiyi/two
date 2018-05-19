@@ -48,10 +48,10 @@
 				 	echo "恭喜，注册成功！";
 				};
 				 // print_r($array["username"]);
-
 			}else{
 				echo '已存在了,两秒后跳转注册页重新注册！';
-		header("Refresh:2;url=../view/login.html");		
+		header("Refresh:2;url=../view/login.html");
+		}		
 	?>
 </body>
 </html>

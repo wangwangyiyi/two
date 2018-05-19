@@ -1,1 +1,2 @@
-yiger 
+如果第二次添加GIT文件，需要先执行一个子句
+git pull --rebase github master

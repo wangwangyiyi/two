@@ -538,4 +538,33 @@ $(".nav-right").mouseleave(function(){
 	})
 	$(".nav-right-lst").hide()	
 })
+$.ajax({
+	url:"../controller/home.data.controller.php",
+	// datatype:"json",
+	success:function(data){
+		var aa = JSON.parse(data);
+		console.log(aa)
+		$("#tiku_list").html(aa[0].tiku_name);
+	}
 })
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

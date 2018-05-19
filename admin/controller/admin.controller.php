@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,8 +28,15 @@
 	// 		}
 	// 	}
 	if($username==$admin&&$password==$pwd){
+		$_SESSION['username'] = $admin;
+		$_SESSION['password'] = $pwd;
 		echo '欢迎来到后台页面！';
-	}	
+		header('location:../view/list.php');
+		// session_destroy();
+	}else{
+		echo "名字或者密码不正确！";
+		exit();
+	}
 
 
 
